@@ -5,7 +5,7 @@ const getAllGistUrl = (username) => {
 };
 
 const getSingleGistUrl = (gistId) => {
-    return `${BASE_URL}/gists/${gistId}`;
+    return `${BASE_URL}/gists${gistId}`;
 }
 
 export {getAllGistUrl, getSingleGistUrl};
